@@ -22,6 +22,7 @@ public class Inicio {
         Ejecutable ejecutable = null; // Es la Referencia para aplicar polimorfismo.
         Historiales historiales = null;
         historiales = Historial.getInstance( );
+        System.out.println("Hola Emiliano 3");
         while (flag) {
             ejecutable = null; // Reinicia la referencia en cada iteración.
             Menu.principal2(); // Muestra el menú principal en la consola.
